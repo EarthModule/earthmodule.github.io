@@ -11,3 +11,12 @@ fields:
 - type: text
   name: documentation
   label: documentation
+- name: ingress
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Ingress
