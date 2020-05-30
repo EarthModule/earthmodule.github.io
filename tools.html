@@ -4,13 +4,25 @@ title: Tools
 ---
 <h1>Tools</h1>
 
-<ul>
+<div class="container">
+  <div class="row">
   {% for tool in site.tools %}
-    <li>
-      <h2><a href="{{ tool.url }}">{{ tool.name }}</a></h2>
-      <h3>{{ tool.documentation }}</h3>
-      <h3>{{ tool.repository }}</h3>
-      <p>{{ tool.content | markdownify }}</p>
-    </li>
+    <div class="col-3 box">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title"><h1><a href="{{ tool.url }}">{{ tool.name }}</a></h1></div>
+            <p class="card-text">{{ tool.ingress }}</p>
+          <div class="span">
+            {% if tool.repository %}
+              <div><a href="{{ tool.repository }}" class="card-link">repository</a></span></div>
+            {% endif %}
+            {% if tool.documentation %}
+              <a href="{{ tool.documentation }}" class="card-link">documentation</a>
+            {% endif%}
+          </div> 
+      </div>
+    </div>
+  </div>
   {% endfor %}
-</ul>
+</div>
+</div>

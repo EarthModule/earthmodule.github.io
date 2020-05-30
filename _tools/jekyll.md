@@ -1,7 +1,8 @@
 ---
 name: jekyll
-repository: https://jekyllrb.com/docs/
-documentation: None
+repository: https://github.com/jekyll/jekyll
+documentation: https://jekyllrb.com/docs/ 
+ingress: Static website builder
 ---
 ## Install instructions
 ```bash
