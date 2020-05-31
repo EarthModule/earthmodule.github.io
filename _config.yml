@@ -36,6 +36,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-menus
+  - jekyll-remote-include
 
 collections:
   posts:

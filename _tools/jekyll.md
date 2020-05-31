@@ -17,4 +17,6 @@ gem install jekyll bundler
 ```
 
 ## Start new Jekyll site
-`jekyll new myblog`
+```bash
+jekyll new myblog
+```

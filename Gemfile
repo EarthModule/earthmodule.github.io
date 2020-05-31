@@ -17,6 +17,7 @@ gem 'jekyll-manager', group: :jekyll_plugins
 gem "jekyll-menus", group: :jekyll_plugins
 gem "jekyll-gist"
 gem "jekyll-theme-leaf"
+gem 'jekyll-remote-include', :github => 'netrics/jekyll-remote-include', group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

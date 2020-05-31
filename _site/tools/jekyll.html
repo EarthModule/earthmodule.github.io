@@ -13,9 +13,9 @@
 <meta property="og:url" content="http://localhost:4000/tools/jekyll.html" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-05-31T12:15:27+03:00" />
+<meta property="article:published_time" content="2020-05-31T16:28:38+03:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/tools/jekyll.html","headline":"Jekyll","dateModified":"2020-05-31T12:15:27+03:00","datePublished":"2020-05-31T12:15:27+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/tools/jekyll.html"},"description":"Install instructions sudo apt-get install ruby-full build-essential zlib1g-dev -y echo &#39;# Install Ruby Gems to ~/gems&#39; &gt;&gt; ~/.bashrc echo &#39;export GEM_HOME=&quot;$HOME/gems&quot;&#39; &gt;&gt; ~/.bashrc echo &#39;export PATH=&quot;$HOME/gems/bin:$PATH&quot;&#39; &gt;&gt; ~/.bashrc source ~/.bashrc gem install jekyll bundler","@context":"https://schema.org"}</script>
+{"description":"Install instructions sudo apt-get install ruby-full build-essential zlib1g-dev -y echo &#39;# Install Ruby Gems to ~/gems&#39; &gt;&gt; ~/.bashrc echo &#39;export GEM_HOME=&quot;$HOME/gems&quot;&#39; &gt;&gt; ~/.bashrc echo &#39;export PATH=&quot;$HOME/gems/bin:$PATH&quot;&#39; &gt;&gt; ~/.bashrc source ~/.bashrc gem install jekyll bundler","@type":"BlogPosting","headline":"Jekyll","dateModified":"2020-05-31T16:28:38+03:00","datePublished":"2020-05-31T16:28:38+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/tools/jekyll.html"},"url":"http://localhost:4000/tools/jekyll.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head><body><header class="site-header"><a class="site-title" rel="author" href="/">Your awesome title</a><nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -40,11 +40,11 @@
 
 </header><main class="page-content" aria-label="Content">
         <div class="wrapper">
-            <h1>jekyll</h1>
+            <link rel="stylesheet" href="/assets/css/styles.css">
+<h1>jekyll</h1>
 <p><a href="https://github.com/jekyll/jekyll">Repository</a></p>
 <p><a href="">Documentation</a></p>
 <p><blockquote>Static website builder</blockquote></p>
-
 <h2 id="install-instructions">Install instructions</h2>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>ruby-full build-essential zlib1g-dev <span class="nt">-y</span>
 <span class="nb">echo</span> <span class="s1">'# Install Ruby Gems to ~/gems'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
@@ -55,7 +55,98 @@ gem <span class="nb">install </span>jekyll bundler
 </code></pre></div></div>
 
 <h2 id="start-new-jekyll-site">Start new Jekyll site</h2>
-<p><code class="language-plaintext highlighter-rouge">jekyll new myblog</code></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new myblog
+</code></pre></div></div>
+
+<div class="separator">Readme</div>
+
+<h1 id="jekyll"><a href="https://jekyllrb.com/">Jekyll</a></h1>
+
+<p><a href="https://rubygems.org/gems/jekyll"><img src="https://img.shields.io/gem/v/jekyll.svg" alt="Gem Version" /></a>
+<a href="https://travis-ci.org/jekyll/jekyll"><img src="https://img.shields.io/travis/jekyll/jekyll/master.svg?label=Linux%20build" alt="Linux Build Status" /></a>
+<a href="https://ci.appveyor.com/project/jekyll/jekyll/branch/master"><img src="https://img.shields.io/appveyor/ci/jekyll/jekyll/master.svg?label=Windows%20build" alt="Windows Build status" /></a>
+<a href="https://codeclimate.com/github/jekyll/jekyll"><img src="https://api.codeclimate.com/v1/badges/8ba0cb5b17bb9848e128/maintainability" alt="Maintainability" /></a>
+<a href="https://codeclimate.com/github/jekyll/jekyll/coverage"><img src="https://api.codeclimate.com/v1/badges/8ba0cb5b17bb9848e128/test_coverage" alt="Test Coverage" /></a>
+<a href="https://hakiri.io/github/jekyll/jekyll/master"><img src="https://hakiri.io/github/jekyll/jekyll/master.svg" alt="Security" /></a>
+<a href="#backers"><img src="https://opencollective.com/jekyll/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="#sponsors"><img src="https://opencollective.com/jekyll/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a></p>
+
+<p>Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind <a href="https://pages.github.com">GitHub Pages</a>, which you can use to host sites right from your GitHub repositories.</p>
+
+<h2 id="philosophy">Philosophy</h2>
+
+<p>Jekyll does what you tell it to do — no more, no less. It doesn’t try to outsmart users by making bold assumptions, nor does it burden them with needless complexity and configuration. Put simply, Jekyll gets out of your way and allows you to concentrate on what truly matters: your content.</p>
+
+<p>See: https://jekyllrb.com/philosophy</p>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<ul>
+  <li><a href="https://jekyllrb.com/docs/installation/">Install</a> the gem</li>
+  <li>Read up about its <a href="https://jekyllrb.com/docs/usage/">Usage</a> and <a href="https://jekyllrb.com/docs/configuration/">Configuration</a></li>
+  <li>Take a gander at some existing <a href="https://github.com/jekyll/jekyll/wiki/sites">Sites</a></li>
+  <li><a href="https://github.com/jekyll/jekyll/fork">Fork</a> and <a href="https://jekyllrb.com/docs/contributing/">Contribute</a> your own modifications</li>
+  <li>Have questions? Check out our official forum community <a href="https://talk.jekyllrb.com/">Jekyll Talk</a> or <a href="https://botbot.me/freenode/jekyll/"><code class="language-plaintext highlighter-rouge">#jekyll</code> on irc.freenode.net</a></li>
+</ul>
+
+<h2 id="diving-in">Diving In</h2>
+
+<ul>
+  <li><a href="http://import.jekyllrb.com/docs/home/">Migrate</a> from your previous system</li>
+  <li>Learn how <a href="https://jekyllrb.com/docs/front-matter/">Front Matter</a> works</li>
+  <li>Put information on your site with <a href="https://jekyllrb.com/docs/variables/">Variables</a></li>
+  <li>Customize the <a href="https://jekyllrb.com/docs/permalinks/">Permalinks</a> your posts are generated with</li>
+  <li>Use the built-in <a href="https://jekyllrb.com/docs/templates/">Liquid Extensions</a> to make your life easier</li>
+  <li>Use custom <a href="https://jekyllrb.com/docs/plugins/">Plugins</a> to generate content specific to your site</li>
+  <li>Watch <a href="https://jekyllrb.com/tutorials/video-walkthroughs/">video tutorials from Giraffe Academy</a></li>
+</ul>
+
+<h2 id="need-help">Need help?</h2>
+
+<p>If you don’t find the answer to your problem in our <a href="https://jekyllrb.com/docs/">docs</a>, or in the <a href="https://jekyllrb.com/docs/troubleshooting/">troubleshooting section</a>, ask the <a href="https://jekyllrb.com/docs/community/">community</a> for help.</p>
+
+<h2 id="code-of-conduct">Code of Conduct</h2>
+
+<p>In order to have a more open and welcoming community, Jekyll adheres to a
+<a href="CODE_OF_CONDUCT.markdown">code of conduct</a> adapted from the Ruby on Rails code of
+conduct.</p>
+
+<p>Please adhere to this code of conduct in any interactions you have in the
+Jekyll community. It is strictly enforced on all official Jekyll
+repositories, websites, and resources. If you encounter someone violating
+these terms, please let one of our <a href="https://jekyllrb.com/team/#core-team">core team members</a> know and we will address it as soon as possible.</p>
+
+<h2 id="credits">Credits</h2>
+
+<h3 id="sponsors">Sponsors</h3>
+
+<p>Support this project by becoming a sponsor. Your logo will show up in this README with a link to your website. <a href="https://opencollective.com/jekyll#sponsor">Become a sponsor!</a></p>
+
+<p><a href="https://opencollective.com/jekyll/sponsor/0/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/0/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/1/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/1/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/2/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/2/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/3/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/3/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/4/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/4/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/5/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/5/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/6/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/6/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/7/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/7/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/8/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/8/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/9/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/9/avatar.svg" /></a></p>
+
+<h3 id="contributors">Contributors</h3>
+
+<p>This project exists thanks to all the people who contribute.
+<a href="../../graphs/contributors"><img src="https://opencollective.com/jekyll/contributors.svg?width=890&amp;button=false" /></a></p>
+
+<h3 id="backers">Backers</h3>
+
+<p>Thank you to all our backers! 🙏 <a href="https://opencollective.com/jekyll#backer">Become a backer</a></p>
+
+<p><a href="https://opencollective.com/jekyll#backers" target="_blank"><img src="https://opencollective.com/jekyll/backers.svg?width=890" /></a></p>
+
+<h2 id="license">License</h2>
+
+<p>See the <a href="https://github.com/jekyll/jekyll/blob/master/LICENSE">LICENSE</a> file.</p>
 
         </div>
     </main><footer class="site-footer h-card">
