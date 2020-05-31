@@ -2,21 +2,21 @@
 label: tool.new
 hide_body: false
 fields:
-- type: text
-  name: name
-  label: name
-- type: text
-  name: repository
-  label: repository
-- type: text
-  name: documentation
-  label: documentation
-- name: ingress
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Ingress
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: repository
+    label: repository
+  - type: text
+    name: documentation
+    label: documentation
+  - name: ingress
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Ingress
