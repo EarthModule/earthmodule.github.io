@@ -1,9 +1,11 @@
 ---
+title: Jekyll
 name: jekyll
 repository: https://github.com/jekyll/jekyll
-documentation: https://jekyllrb.com/docs/ 
+documentation: https://jekyllrb.com/docs/
 ingress: Static website builder
 ---
+
 ## Install instructions
 ```bash
 sudo apt-get install ruby-full build-essential zlib1g-dev -y
