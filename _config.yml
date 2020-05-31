@@ -29,6 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
 encoding: UTF-8
+remote_theme: SupunKavinda/jekyll-theme-leaf
 # Build settings
 theme: jekyll-theme-leaf
 plugins:
