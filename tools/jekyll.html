@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Jekyll | Toni Nurmi, Projects and Tools 0.1.1</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Jekyll" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Install instructions sudo apt-get install ruby-full build-essential zlib1g-dev -y echo &#39;# Install Ruby Gems to ~/gems&#39; &gt;&gt; ~/.bashrc echo &#39;export GEM_HOME=&quot;$HOME/gems&quot;&#39; &gt;&gt; ~/.bashrc echo &#39;export PATH=&quot;$HOME/gems/bin:$PATH&quot;&#39; &gt;&gt; ~/.bashrc source ~/.bashrc gem install jekyll bundler" />
+<meta property="og:description" content="Install instructions sudo apt-get install ruby-full build-essential zlib1g-dev -y echo &#39;# Install Ruby Gems to ~/gems&#39; &gt;&gt; ~/.bashrc echo &#39;export GEM_HOME=&quot;$HOME/gems&quot;&#39; &gt;&gt; ~/.bashrc echo &#39;export PATH=&quot;$HOME/gems/bin:$PATH&quot;&#39; &gt;&gt; ~/.bashrc source ~/.bashrc gem install jekyll bundler" />
+<link rel="canonical" href="/tools/jekyll.html" />
+<meta property="og:url" content="/tools/jekyll.html" />
+<meta property="og:site_name" content="Toni Nurmi, Projects and Tools 0.1.1" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-06T11:39:52+00:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"/tools/jekyll.html"},"datePublished":"2020-06-06T11:39:52+00:00","url":"/tools/jekyll.html","description":"Install instructions sudo apt-get install ruby-full build-essential zlib1g-dev -y echo &#39;# Install Ruby Gems to ~/gems&#39; &gt;&gt; ~/.bashrc echo &#39;export GEM_HOME=&quot;$HOME/gems&quot;&#39; &gt;&gt; ~/.bashrc echo &#39;export PATH=&quot;$HOME/gems/bin:$PATH&quot;&#39; &gt;&gt; ~/.bashrc source ~/.bashrc gem install jekyll bundler","dateModified":"2020-06-06T11:39:52+00:00","headline":"Jekyll","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Toni Nurmi, Projects and Tools 0.1.1" /></head><body><header class="site-header"><a class="site-title" rel="author" href="/">Toni Nurmi, Projects and Tools 0.1.1</a><nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+          </svg>
+        </span>
+      </label>
+
+      <div class="trigger">
+            <a class="page-link" href="/about/">
+              About
+            </a>
+            <a class="page-link" href="/tools.html">
+              Tools
+            </a></div>
+    </nav><div class="site-icon">
+    <img src="" />
+  </div>
+
+</header><main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            <link rel="stylesheet" href="/assets/css/styles.css">
+<h1>jekyll</h1>
+<p><a href="https://github.com/jekyll/jekyll">Repository</a></p>
+<p><a href="">Documentation</a></p>
+<p><blockquote>Static website builder</blockquote></p>
+<h2 id="install-instructions">Install instructions</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>ruby-full build-essential zlib1g-dev <span class="nt">-y</span>
+<span class="nb">echo</span> <span class="s1">'# Install Ruby Gems to ~/gems'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nb">echo</span> <span class="s1">'export GEM_HOME="$HOME/gems"'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nb">echo</span> <span class="s1">'export PATH="$HOME/gems/bin:$PATH"'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nb">source</span> ~/.bashrc
+gem <span class="nb">install </span>jekyll bundler
+</code></pre></div></div>
+
+<h2 id="start-new-jekyll-site">Start new Jekyll site</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new myblog
+</code></pre></div></div>
+
+<div class="separator">Readme</div>
+
+<h1 id="jekyll"><a href="https://jekyllrb.com/">Jekyll</a></h1>
+
+<p><a href="https://rubygems.org/gems/jekyll"><img src="https://img.shields.io/gem/v/jekyll.svg" alt="Gem Version" /></a>
+<a href="https://travis-ci.org/jekyll/jekyll"><img src="https://img.shields.io/travis/jekyll/jekyll/master.svg?label=Linux%20build" alt="Linux Build Status" /></a>
+<a href="https://ci.appveyor.com/project/jekyll/jekyll/branch/master"><img src="https://img.shields.io/appveyor/ci/jekyll/jekyll/master.svg?label=Windows%20build" alt="Windows Build status" /></a>
+<a href="https://codeclimate.com/github/jekyll/jekyll"><img src="https://api.codeclimate.com/v1/badges/8ba0cb5b17bb9848e128/maintainability" alt="Maintainability" /></a>
+<a href="https://codeclimate.com/github/jekyll/jekyll/coverage"><img src="https://api.codeclimate.com/v1/badges/8ba0cb5b17bb9848e128/test_coverage" alt="Test Coverage" /></a>
+<a href="https://hakiri.io/github/jekyll/jekyll/master"><img src="https://hakiri.io/github/jekyll/jekyll/master.svg" alt="Security" /></a>
+<a href="#backers"><img src="https://opencollective.com/jekyll/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="#sponsors"><img src="https://opencollective.com/jekyll/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a></p>
+
+<p>Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind <a href="https://pages.github.com">GitHub Pages</a>, which you can use to host sites right from your GitHub repositories.</p>
+
+<h2 id="philosophy">Philosophy</h2>
+
+<p>Jekyll does what you tell it to do — no more, no less. It doesn’t try to outsmart users by making bold assumptions, nor does it burden them with needless complexity and configuration. Put simply, Jekyll gets out of your way and allows you to concentrate on what truly matters: your content.</p>
+
+<p>See: https://jekyllrb.com/philosophy</p>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<ul>
+  <li><a href="https://jekyllrb.com/docs/installation/">Install</a> the gem</li>
+  <li>Read up about its <a href="https://jekyllrb.com/docs/usage/">Usage</a> and <a href="https://jekyllrb.com/docs/configuration/">Configuration</a></li>
+  <li>Take a gander at some existing <a href="https://github.com/jekyll/jekyll/wiki/sites">Sites</a></li>
+  <li><a href="https://github.com/jekyll/jekyll/fork">Fork</a> and <a href="https://jekyllrb.com/docs/contributing/">Contribute</a> your own modifications</li>
+  <li>Have questions? Check out our official forum community <a href="https://talk.jekyllrb.com/">Jekyll Talk</a> or <a href="https://botbot.me/freenode/jekyll/"><code class="language-plaintext highlighter-rouge">#jekyll</code> on irc.freenode.net</a></li>
+</ul>
+
+<h2 id="diving-in">Diving In</h2>
+
+<ul>
+  <li><a href="http://import.jekyllrb.com/docs/home/">Migrate</a> from your previous system</li>
+  <li>Learn how <a href="https://jekyllrb.com/docs/front-matter/">Front Matter</a> works</li>
+  <li>Put information on your site with <a href="https://jekyllrb.com/docs/variables/">Variables</a></li>
+  <li>Customize the <a href="https://jekyllrb.com/docs/permalinks/">Permalinks</a> your posts are generated with</li>
+  <li>Use the built-in <a href="https://jekyllrb.com/docs/templates/">Liquid Extensions</a> to make your life easier</li>
+  <li>Use custom <a href="https://jekyllrb.com/docs/plugins/">Plugins</a> to generate content specific to your site</li>
+  <li>Watch <a href="https://jekyllrb.com/tutorials/video-walkthroughs/">video tutorials from Giraffe Academy</a></li>
+</ul>
+
+<h2 id="need-help">Need help?</h2>
+
+<p>If you don’t find the answer to your problem in our <a href="https://jekyllrb.com/docs/">docs</a>, or in the <a href="https://jekyllrb.com/docs/troubleshooting/">troubleshooting section</a>, ask the <a href="https://jekyllrb.com/docs/community/">community</a> for help.</p>
+
+<h2 id="code-of-conduct">Code of Conduct</h2>
+
+<p>In order to have a more open and welcoming community, Jekyll adheres to a
+<a href="CODE_OF_CONDUCT.markdown">code of conduct</a> adapted from the Ruby on Rails code of
+conduct.</p>
+
+<p>Please adhere to this code of conduct in any interactions you have in the
+Jekyll community. It is strictly enforced on all official Jekyll
+repositories, websites, and resources. If you encounter someone violating
+these terms, please let one of our <a href="https://jekyllrb.com/team/#core-team">core team members</a> know and we will address it as soon as possible.</p>
+
+<h2 id="credits">Credits</h2>
+
+<h3 id="sponsors">Sponsors</h3>
+
+<p>Support this project by becoming a sponsor. Your logo will show up in this README with a link to your website. <a href="https://opencollective.com/jekyll#sponsor">Become a sponsor!</a></p>
+
+<p><a href="https://opencollective.com/jekyll/sponsor/0/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/0/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/1/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/1/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/2/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/2/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/3/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/3/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/4/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/4/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/5/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/5/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/6/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/6/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/7/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/7/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/8/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/8/avatar.svg" /></a>
+<a href="https://opencollective.com/jekyll/sponsor/9/website" target="_blank"><img src="https://opencollective.com/jekyll/sponsor/9/avatar.svg" /></a></p>
+
+<h3 id="contributors">Contributors</h3>
+
+<p>This project exists thanks to all the people who contribute.
+<a href="../../graphs/contributors"><img src="https://opencollective.com/jekyll/contributors.svg?width=890&amp;button=false" /></a></p>
+
+<h3 id="backers">Backers</h3>
+
+<p>Thank you to all our backers! 🙏 <a href="https://opencollective.com/jekyll#backer">Become a backer</a></p>
+
+<p><a href="https://opencollective.com/jekyll#backers" target="_blank"><img src="https://opencollective.com/jekyll/backers.svg?width=890" /></a></p>
+
+<h2 id="license">License</h2>
+
+<p>See the <a href="https://github.com/jekyll/jekyll/blob/master/LICENSE">LICENSE</a> file.</p>
+
+        </div>
+    </main><footer class="site-footer h-card">
+    <data class="u-url" href="/"></data>
+
+    <div class="wrapper">
+
+        <div class="footer">
+            <div class="footer-title">2020 &copy; Toni Nurmi, Projects and Tools 0.1.1</div>
+
+            <div class="footer-social-links">
+                <a target="_blank" rel="me" href="https://github.com/">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                <a target="_blank" rel="me" href="https://twitter.com/">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+                    </a>
+            </div>
+        </div>
+    </div>
+
+</footer></body>
+
+</html>
