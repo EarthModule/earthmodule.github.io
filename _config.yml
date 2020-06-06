@@ -37,6 +37,7 @@ plugins:
   - jekyll-gist
   - jekyll-menus
   - jekyll-remote-include
+  - jekyll-target-blank
 
 collections:
   posts:
